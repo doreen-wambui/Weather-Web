@@ -1,0 +1,59 @@
+body {
+ font-family: 'Playfair Display', serif;
+}
+.heading {
+    font-weight: 700;
+    text-align: center;
+}
+.quote,.author {
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+}
+.icon {
+    color: yellow;
+    font-size: 50px;
+}
+
+.element {
+    position: relative;
+    left: 800px;
+}
+.location {
+    font-size: 24px;
+}
+
+.card {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.actualTemperature {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#actual-temp {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.units {
+    line-height: 50px;
+    position: relative;
+    top: -28px;
+    font-size: 12px;
+}
+.btn-group {
+    display: block;
+    text-align: left;
+}
+header {
+   display: block; 
+   margin: auto;
+}
+.code-link {
+    display: block;
+    text-align: center;
+}
